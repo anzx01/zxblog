@@ -20,7 +20,7 @@ export default async function Post(props: Params) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <main>
+    <main className="bg-neob-light-gray">
       <Alert preview={post.preview} />
       <Container>
         <Header />

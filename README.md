@@ -1,20 +1,86 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+# Neo-Brutalist Blog
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+一个采用 Neo-brutalism 设计风格的博客网站，展示北京四季美景。
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates) feature using Markdown files as the data source.
+## 🎨 设计特色
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+- **Neo-brutalism 风格**: 粗边框、鲜艳配色、倾斜动画
+- **Space Grotesk 字体**: 完美契合粗犷设计风格
+- **响应式设计**: 适配各种设备尺寸
+- **流畅动画**: hover 效果、旋转、位移等交互动画
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+## 📁 项目结构
 
-## Demo
+```
+blog-starter-app14/
+├── _posts/                    # 博客文章
+│   ├── spring-beijing.md     # 北京的春天
+│   ├── summer-beijing.md     # 北京的夏天
+│   ├── autumn-beijing.md     # 北京的秋天
+│   └── winter-beijing.md     # 北京的冬天
+├── public/assets/blog/        # 静态资源
+│   ├── authors/              # 作者头像
+│   ├── spring-beijing/       # 春季图片
+│   ├── summer-beijing/       # 夏季图片
+│   ├── autumn-beijing/       # 秋季图片
+│   └── winter-beijing/       # 冬季图片
+├── src/
+│   ├── app/
+│   │   ├── _components/      # React 组件
+│   │   ├── globals.css       # 全局样式
+│   │   ├── layout.tsx        # 布局组件
+│   │   ├── page.tsx          # 首页
+│   │   └── posts/[slug]/     # 博客详情页
+│   ├── lib/                  # 工具函数
+│   └── interfaces/           # TypeScript 类型定义
+└── start.bat                 # 启动脚本
+```
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+## 🚀 快速开始
 
-## Deploy your own
+### 1. 安装依赖
+```bash
+npm install
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+### 2. 启动开发服务器
+```bash
+npm run dev
+```
+或直接运行 `start.bat`
+
+### 3. 访问网站
+打开浏览器访问: http://localhost:3000
+
+## 🎨 配色方案
+
+- **蓝色** (#0066FF): 链接和标题
+- **粉色** (#FF006E): 强调和装饰
+- **黄色** (#FFBE0B): 引用和高亮
+- **绿色** (#8AC926): 成功状态
+- **紫色** (#8338EC): 特殊元素
+- **黑色** (#000000): 边框和文字
+- **浅灰** (#F3F4F6): 背景色
+
+## ✨ 技术栈
+
+- **Next.js 15**: React 框架
+- **TypeScript**: 类型安全
+- **Tailwind CSS**: 样式框架
+- **Space Grotesk**: 标题字体
+- **Gray-matter**: Markdown 解析
+- **Remark**: Markdown 处理
+
+## 📝 博客文章
+
+项目包含四篇关于北京四季的博客文章：
+
+1. **北京的春天** - 万物复苏，春暖花开
+2. **北京的夏天** - 绿树成荫，荷花盛开
+3. **北京的秋天** - 金风送爽，红叶满山
+4. **北京的冬天** - 银装素裹，梅花傲雪
+
+每篇文章都配有相应的封面图片和详细内容。
 
 ### Related examples
 

@@ -8,36 +8,31 @@ type Props = {
 
 const Alert = ({ preview }: Props) => {
   return (
-    <div
-      className={cn("border-b dark:bg-slate-800", {
-        "bg-neutral-800 border-neutral-800 text-white": preview,
-        "bg-neutral-50 border-neutral-200": !preview,
-      })}
-    >
+    <div className={cn("border-b-4 border-black", {
+      "bg-neob-purple border-black": preview,
+      "bg-neob-yellow border-black": !preview,
+    })}>
       <Container>
-        <div className="py-2 text-center text-sm">
+        <div className="py-4 text-center">
           {preview ? (
-            <>
-              This page is a preview.{" "}
-              <a
-                href="/api/exit-preview"
-                className="underline hover:text-teal-300 duration-200 transition-colors"
-              >
-                Click here
-              </a>{" "}
-              to exit preview mode.
-            </>
+            <div className="neob-card neob-bg-pink transform rotate-1 inline-block">
+              <span className="text-white font-bold">
+                这是一个预览页面。{" "}
+                <a
+                  href="/api/exit-preview"
+                  className="neob-link text-white hover:text-neob-yellow"
+                >
+                  点击这里
+                </a>{" "}
+                退出预览模式。
+              </span>
+            </div>
           ) : (
-            <>
-              The source code for this blog is{" "}
-              <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-blue-600 duration-200 transition-colors"
-              >
-                available on GitHub
-              </a>
-              .
-            </>
+            <div className="neob-card neob-bg-blue transform -rotate-1 inline-block">
+              <span className="text-white font-bold">
+                Neo-Brutalist 博客 - 粗犷 · 大胆 · 原创设计
+              </span>
+            </div>
           )}
         </div>
       </Container>

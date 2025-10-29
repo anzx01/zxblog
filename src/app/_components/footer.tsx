@@ -3,25 +3,18 @@ import { EXAMPLE_PATH } from "@/lib/constants";
 
 export function Footer() {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800">
+    <footer className="bg-neob-black border-t-4 border-neob-yellow transform rotate-1">
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
+        <div className="py-16 flex flex-col lg:flex-row items-center">
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
+            <div className="neob-card neob-bg-yellow transform -rotate-2 hover:rotate-0 transition-all duration-300 wiggle">
+              <span className="text-black font-black text-2xl">Neo-Brutalist Blog</span>
+            </div>
+          </div>
+          <div className="mt-8 lg:mt-0">
+            <div className="neob-card neob-bg-pink transform rotate-2 hover:rotate-0 transition-all duration-300">
+              <span className="text-white font-bold text-lg">粗犷 · 大胆 · 不拘一格</span>
+            </div>
           </div>
         </div>
       </Container>

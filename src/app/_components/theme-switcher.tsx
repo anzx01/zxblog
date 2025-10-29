@@ -95,7 +95,7 @@ const Switch = () => {
 const Script = memo(() => (
   <script
     dangerouslySetInnerHTML={{
-      __html: `(${NoFOUCScript.toString()})('${STORAGE_KEY}')`,
+      __html: `(function(){const STORAGE_KEY="${STORAGE_KEY}";const SYSTEM="system";const DARK="dark";const LIGHT="light";const modifyTransition=function(){const css=document.createElement("style");css.textContent="*,*:after,*:before{transition:none !important;}";document.head.appendChild(css);return function(){getComputedStyle(document.body);setTimeout(function(){document.head.removeChild(css);},1);};};const media=matchMedia("(prefers-color-scheme: "+DARK+")");window.updateDOM=function(){const restoreTransitions=modifyTransition();const mode=localStorage.getItem(STORAGE_KEY)||SYSTEM;const systemMode=media.matches?DARK:LIGHT;const resolvedMode=mode===SYSTEM?systemMode:mode;const classList=document.documentElement.classList;if(resolvedMode===DARK)classList.add(DARK);else classList.remove(DARK);document.documentElement.setAttribute("data-mode",mode);restoreTransitions();};window.updateDOM();media.addEventListener("change",window.updateDOM);})()`,
     }}
   />
 ));
