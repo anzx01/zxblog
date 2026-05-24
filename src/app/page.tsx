@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 import Container from "@/app/_components/container";
 import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";

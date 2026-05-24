@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
