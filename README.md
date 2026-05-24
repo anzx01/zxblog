@@ -2,6 +2,8 @@
 
 一个采用 Neo-brutalism 设计风格的 Next.js 博客，展示北京四季主题文章。
 
+![1779610945337](image/README/1779610945337.png)
+
 ## 设计特色
 
 - **Neo-brutalism 风格**: 粗边框、鲜艳配色、倾斜动画
