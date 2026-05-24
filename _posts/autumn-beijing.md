@@ -1,13 +1,13 @@
 ---
 title: "北京的秋天"
 excerpt: "北京的秋天，金风送爽，红叶满山，天高云淡下的古都展现出最迷人的风采."
-coverImage: "/assets/blog/autumn-beijing/cover.jpg"
+coverImage: "/assets/blog/autumn-beijing/cover.svg"
 date: "2020-09-16T05:35:07.322Z"
 author:
   name: zx
-  picture: "/assets/blog/authors/jj.jpeg"
+  picture: "/assets/blog/authors/zx.svg"
 ogImage:
-  url: "/assets/blog/autumn-beijing/cover.jpg"
+  url: "/assets/blog/autumn-beijing/cover.svg"
 ---
 
 北京的秋天，总是在一阵清冽的秋风中悄然而至。当夏日的最后一丝热浪被金风驱散，这座千年古都便迎来了它最美丽的季节。秋天的北京，像一幅浓淡相宜的水墨画，用最绚烂的色彩描绘着这座城市的成熟与韵味。

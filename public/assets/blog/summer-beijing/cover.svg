@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 630" role="img" aria-labelledby="title desc">
+  <title id="title">Summer in Beijing cover</title>
+  <desc id="desc">Original geometric summer illustration for the Beijing blog.</desc>
+  <rect width="1300" height="630" fill="#dff7ff"/>
+  <rect x="35" y="35" width="1230" height="560" fill="#c9f1ff" stroke="#000" stroke-width="14"/>
+  <circle cx="1130" cy="120" r="80" fill="#ffbe0b" stroke="#000" stroke-width="10"/>
+  <rect x="35" y="392" width="1230" height="203" fill="#0066ff" stroke="#000" stroke-width="10"/>
+  <path d="M35 386c93-42 186-42 279 0 92 42 185 42 278 0 92-42 185-42 278 0 93 42 186 42 279 0 39-18 78-28 116-31v79H35z" fill="#8ac926" stroke="#000" stroke-width="10"/>
+  <g fill="#fff" stroke="#000" stroke-width="7">
+    <ellipse cx="270" cy="456" rx="95" ry="28"/>
+    <ellipse cx="498" cy="515" rx="110" ry="32"/>
+    <ellipse cx="930" cy="470" rx="120" ry="30"/>
+  </g>
+  <g stroke="#000" stroke-width="8" stroke-linecap="round">
+    <path d="M276 456c16-52 38-88 66-108" fill="none"/>
+    <path d="M498 515c20-78 49-126 88-145" fill="none"/>
+    <path d="M930 470c30-75 72-120 126-135" fill="none"/>
+  </g>
+  <g fill="#ff006e" stroke="#000" stroke-width="8">
+    <path d="M308 344c47-18 85-7 114 34-48 20-86 9-114-34z"/>
+    <path d="M539 368c57-21 102-7 134 42-58 23-103 9-134-42z"/>
+    <path d="M1014 333c64-25 114-10 151 45-65 26-116 11-151-45z"/>
+  </g>
+  <g fill="#8ac926" stroke="#000" stroke-width="9">
+    <circle cx="130" cy="310" r="78"/>
+    <circle cx="206" cy="276" r="72"/>
+    <circle cx="274" cy="318" r="82"/>
+    <rect x="170" y="320" width="62" height="190"/>
+  </g>
+  <text x="92" y="140" font-family="Arial Black, Arial, sans-serif" font-size="78" font-weight="900" fill="#ff006e" stroke="#000" stroke-width="3">SUMMER</text>
+  <text x="96" y="207" font-family="Arial Black, Arial, sans-serif" font-size="42" font-weight="900" fill="#000">BEIJING</text>
+</svg>

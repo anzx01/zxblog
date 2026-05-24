@@ -1,18 +1,18 @@
-# Neo-Brutalist Blog
+# ZX Blog
 
-一个采用 Neo-brutalism 设计风格的博客网站，展示四季美景。
+一个采用 Neo-brutalism 设计风格的 Next.js 博客，展示北京四季主题文章。
 
-## 🎨 设计特色
+## 设计特色
 
 - **Neo-brutalism 风格**: 粗边框、鲜艳配色、倾斜动画
-- **Space Grotesk 字体**: 完美契合粗犷设计风格
-- **响应式设计**: 适配各种设备尺寸
-- **流畅动画**: hover 效果、旋转、位移等交互动画
+- **响应式设计**: 适配桌面端与移动端
+- **Markdown 内容**: 文章存放在 `_posts`
+- **原创 SVG 资产**: 封面图、头像和 favicon 均为本仓库自有素材
 
-## 📁 项目结构
+## 项目结构
 
 ```
-blog-starter-app14/
+zxblog/
 ├── _posts/                    # 博客文章
 │   ├── spring-beijing.md     # 北京的春天
 │   ├── summer-beijing.md     # 北京的夏天
@@ -36,23 +36,31 @@ blog-starter-app14/
 └── start.bat                 # 启动脚本
 ```
 
-## 🚀 快速开始
+## 快速开始
 
 ### 1. 安装依赖
+
 ```bash
-npm install
+pnpm install
 ```
 
-### 2. 启动开发服务器
+### 2. 配置站点地址
+
+复制 `.env.example` 为 `.env.local`，把 `NEXT_PUBLIC_SITE_URL` 改成实际部署地址。
+
+### 3. 启动开发服务器
+
 ```bash
-npm run dev
+pnpm dev
 ```
+
 或直接运行 `start.bat`
 
-### 3. 访问网站
+### 4. 访问网站
+
 打开浏览器访问: http://localhost:3000
 
-## 🎨 配色方案
+## 配色方案
 
 - **蓝色** (#0066FF): 链接和标题
 - **粉色** (#FF006E): 强调和装饰
@@ -62,16 +70,15 @@ npm run dev
 - **黑色** (#000000): 边框和文字
 - **浅灰** (#F3F4F6): 背景色
 
-## ✨ 技术栈
+## 技术栈
 
 - **Next.js 15**: React 框架
 - **TypeScript**: 类型安全
 - **Tailwind CSS**: 样式框架
-- **Space Grotesk**: 标题字体
 - **Gray-matter**: Markdown 解析
 - **Remark**: Markdown 处理
 
-## 📝 博客文章
+## 博客文章
 
 项目包含四篇关于北京四季的博客文章：
 
@@ -82,57 +89,9 @@ npm run dev
 
 每篇文章都配有相应的封面图片和详细内容。
 
-### Related examples
+## 合规与版权说明
 
-- [AgilityCMS](/examples/cms-agilitycms)
-- [Builder.io](/examples/cms-builder-io)
-- [ButterCMS](/examples/cms-buttercms)
-- [Contentful](/examples/cms-contentful)
-- [Cosmic](/examples/cms-cosmic)
-- [DatoCMS](/examples/cms-datocms)
-- [DotCMS](/examples/cms-dotcms)
-- [Drupal](/examples/cms-drupal)
-- [Enterspeed](/examples/cms-enterspeed)
-- [Ghost](/examples/cms-ghost)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent.ai](/examples/cms-kontent-ai)
-- [MakeSwift](/examples/cms-makeswift)
-- [Payload](/examples/cms-payload)
-- [Plasmic](/examples/cms-plasmic)
-- [Prepr](/examples/cms-prepr)
-- [Prismic](/examples/cms-prismic)
-- [Sanity](/examples/cms-sanity)
-- [Sitecore XM Cloud](/examples/cms-sitecore-xmcloud)
-- [Sitefinity](/examples/cms-sitefinity)
-- [Storyblok](/examples/cms-storyblok)
-- [TakeShape](/examples/cms-takeshape)
-- [Tina](/examples/cms-tina)
-- [Umbraco](/examples/cms-umbraco)
-- [Umbraco heartcore](/examples/cms-umbraco-heartcore)
-- [Webiny](/examples/cms-webiny)
-- [WordPress](/examples/cms-wordpress)
-- [Blog Starter](/examples/blog-starter)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog-starter blog-starter-app
-```
-
-```bash
-yarn create next-app --example blog-starter blog-starter-app
-```
-
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
-
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-# Notes
-
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+- 项目代码采用 MIT License，见 `LICENSE`。
+- 第三方依赖和模板来源记录在 `THIRD_PARTY_NOTICES.md`。
+- 静态视觉资产来源记录在 `ASSET_ATTRIBUTIONS.md`。
+- `.env*` 和 `.claude/` 已加入 `.gitignore`，避免本地配置或密钥进入公开仓库。

@@ -24,13 +24,17 @@
 .DS_Store
 *.pem
 
+# local tool configuration
+.claude/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env*
+!.env.example
 
 # vercel
 .vercel

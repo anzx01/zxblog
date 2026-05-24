@@ -1,13 +1,13 @@
 ---
 title: "北京的春天"
 excerpt: "北京的春天，万物复苏，春暖花开，古都焕发新生机."
-coverImage: "/assets/blog/spring-beijing/cover.jpg"
+coverImage: "/assets/blog/spring-beijing/cover.svg"
 date: "2020-03-16T05:35:07.322Z"
 author:
   name: zx
-  picture: "/assets/blog/authors/jj.jpeg"
+  picture: "/assets/blog/authors/zx.svg"
 ogImage:
-  url: "/assets/blog/spring-beijing/cover.jpg"
+  url: "/assets/blog/spring-beijing/cover.svg"
 ---
 
 北京的春天，总是来得悄无声息却又轰轰烈烈。当冬日的最后一片雪花融化在温暖的阳光下，这座千年古都便开始了一场盛大的苏醒。春风如约而至，轻轻拂过故宫的红墙黄瓦，吹过颐和园的湖面，带走了冬日的萧瑟，带来了万物复苏的生机。

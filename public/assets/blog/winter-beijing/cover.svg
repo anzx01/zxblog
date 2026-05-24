@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 630" role="img" aria-labelledby="title desc">
+  <title id="title">Winter in Beijing cover</title>
+  <desc id="desc">Original geometric winter illustration for the Beijing blog.</desc>
+  <rect width="1300" height="630" fill="#dbeafe"/>
+  <rect x="35" y="35" width="1230" height="560" fill="#eef6ff" stroke="#000" stroke-width="14"/>
+  <circle cx="1100" cy="128" r="70" fill="#ffffff" stroke="#000" stroke-width="10"/>
+  <path d="M35 410c147-61 294-71 441-30 128 36 253 27 374-26 134-59 272-53 415 18v223H35z" fill="#ffffff" stroke="#000" stroke-width="10"/>
+  <path d="M120 412h760v126H120z" fill="#d7333f" stroke="#000" stroke-width="10"/>
+  <path d="M88 360h824l-48 64H136z" fill="#ffbe0b" stroke="#000" stroke-width="10"/>
+  <path d="M148 538h686" stroke="#000" stroke-width="10" stroke-linecap="square"/>
+  <g fill="#0066ff" stroke="#000" stroke-width="8">
+    <rect x="218" y="430" width="82" height="108"/>
+    <rect x="407" y="430" width="82" height="108"/>
+    <rect x="596" y="430" width="82" height="108"/>
+  </g>
+  <g stroke="#0066ff" stroke-width="8" stroke-linecap="round">
+    <path d="M978 265h84m-42-42v84m-30-72l60 60m0-60l-60 60"/>
+    <path d="M1084 376h64m-32-32v64m-23-54l46 46m0-46l-46 46"/>
+    <path d="M890 166h64m-32-32v64m-23-54l46 46m0-46l-46 46"/>
+  </g>
+  <g fill="#fff" stroke="#000" stroke-width="7">
+    <circle cx="195" cy="314" r="20"/>
+    <circle cx="342" cy="262" r="16"/>
+    <circle cx="526" cy="302" r="18"/>
+    <circle cx="712" cy="246" r="15"/>
+  </g>
+  <text x="92" y="140" font-family="Arial Black, Arial, sans-serif" font-size="78" font-weight="900" fill="#0066ff" stroke="#000" stroke-width="3">WINTER</text>
+  <text x="96" y="207" font-family="Arial Black, Arial, sans-serif" font-size="42" font-weight="900" fill="#000">BEIJING</text>
+</svg>

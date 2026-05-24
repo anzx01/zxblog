@@ -1,11 +1,22 @@
 import Footer from "@/app/_components/footer";
+import { HOME_OG_IMAGE_URL, SITE_NAME } from "@/lib/constants";
 import type { Metadata } from "next";
 
 import "./globals.css";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://anzx01.github.io/zxblog";
+const siteDescription = "粗犷、大胆、原创内容的 Neo-brutalism 风格博客";
+
 export const metadata: Metadata = {
-  title: "Neo-Brutalist Blog",
-  description: "粗犷 · 大胆 · 原创内容的Neo-brutalism风格博客",
+  metadataBase: new URL(siteUrl),
+  title: SITE_NAME,
+  description: siteDescription,
+  openGraph: {
+    title: SITE_NAME,
+    description: siteDescription,
+    images: [HOME_OG_IMAGE_URL],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -17,35 +28,13 @@ export default function RootLayout({
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
         <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/favicon/apple-touch-icon.png"
-        />
-        <link
           rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon/favicon-16x16.png"
+          href="/favicon/favicon.svg"
+          type="image/svg+xml"
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="/favicon/safari-pinned-tab.svg"
-          color="#000000"
-        />
-        <link rel="shortcut icon" href="/favicon/favicon.ico" />
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta
-          name="msapplication-config"
-          content="/favicon/browserconfig.xml"
-        />
-        <meta name="theme-color" content="#000" />
+        <meta name="theme-color" content="#0066FF" />
+        <meta name="msapplication-TileColor" content="#0066FF" />
       </head>
       <body className="min-h-screen" style={{backgroundColor: 'var(--neob-light-gray)'}}>
         {children}

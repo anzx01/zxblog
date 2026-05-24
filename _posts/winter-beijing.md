@@ -1,13 +1,13 @@
 ---
 title: "北京的冬天"
 excerpt: "北京的冬天，银装素裹，梅花傲雪，瑞雪纷飞中的古都展现出最宁静的美丽."
-coverImage: "/assets/blog/winter-beijing/cover.jpg"
+coverImage: "/assets/blog/winter-beijing/cover.svg"
 date: "2020-12-16T05:35:07.322Z"
 author:
   name: zx
-  picture: "/assets/blog/authors/jj.jpeg"
+  picture: "/assets/blog/authors/zx.svg"
 ogImage:
-  url: "/assets/blog/winter-beijing/cover.jpg"
+  url: "/assets/blog/winter-beijing/cover.svg"
 ---
 
 北京的冬天，总是在第一场雪花的飘落中正式开始。当秋日的最后一片红叶随风飘散，这座千年古都便开始了它最宁静纯净的季节。冬天的北京，像一幅素雅的水墨画，用最简洁的色彩描绘着这座城市的静美与庄重。

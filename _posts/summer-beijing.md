@@ -1,13 +1,13 @@
 ---
 title: "北京的夏天"
 excerpt: "北京的夏天，绿树成荫，荷花盛开，烈日炎炎下的古都展现出别样的风情."
-coverImage: "/assets/blog/summer-beijing/cover.jpg"
+coverImage: "/assets/blog/summer-beijing/cover.svg"
 date: "2020-06-16T05:35:07.322Z"
 author:
   name: zx
-  picture: "/assets/blog/authors/jj.jpeg"
+  picture: "/assets/blog/authors/zx.svg"
 ogImage:
-  url: "/assets/blog/summer-beijing/cover.jpg"
+  url: "/assets/blog/summer-beijing/cover.svg"
 ---
 
 北京的夏天，总是在一场突如其来的骤雨中拉开序幕。当春日的最后一丝温柔被热浪取代，这座千年古都便开始了它最热烈奔放的季节。夏日的北京，像一幅浓墨重彩的画卷，用最鲜艳的色彩描绘着这座城市的生机与活力。

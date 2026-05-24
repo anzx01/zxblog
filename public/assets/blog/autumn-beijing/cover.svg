@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 630" role="img" aria-labelledby="title desc">
+  <title id="title">Autumn in Beijing cover</title>
+  <desc id="desc">Original geometric autumn illustration for the Beijing blog.</desc>
+  <rect width="1300" height="630" fill="#fff0c7"/>
+  <rect x="35" y="35" width="1230" height="560" fill="#ffe6a3" stroke="#000" stroke-width="14"/>
+  <circle cx="1044" cy="126" r="70" fill="#ff006e" stroke="#000" stroke-width="10"/>
+  <path d="M35 330l195-122 142 85 130-126 169 126 116-84 177 118 120-72 181 106v234H35z" fill="#8338ec" stroke="#000" stroke-width="10"/>
+  <path d="M70 438c110-62 229-87 357-74 142 15 252-10 330-74 84-67 189-77 315-31 72 27 136 35 193 25v311H70z" fill="#ffbe0b" stroke="#000" stroke-width="10"/>
+  <path d="M78 450h127l44-53h121l44 53h126l43-53h122l44 53h126l43-53h122l44 53h126" fill="none" stroke="#000" stroke-width="12" stroke-linejoin="round"/>
+  <g fill="#d7333f" stroke="#000" stroke-width="7">
+    <path d="M816 296l36 18-31 25-5 42-34-25-43 8 14-40-22-36 42 1 29-32z"/>
+    <path d="M930 222l34 22-33 20-9 39-29-27-41 3 18-36-15-37 40 7 31-27z"/>
+    <path d="M1098 319l30 27-36 14-15 36-24-31-39-4 23-31-9-38 36 13 34-20z"/>
+    <path d="M695 385l28 23-32 15-10 35-25-27-36 1 17-31-13-34 35 7 28-22z"/>
+  </g>
+  <text x="92" y="140" font-family="Arial Black, Arial, sans-serif" font-size="78" font-weight="900" fill="#8338ec" stroke="#000" stroke-width="3">AUTUMN</text>
+  <text x="96" y="207" font-family="Arial Black, Arial, sans-serif" font-size="42" font-weight="900" fill="#d7333f">BEIJING</text>
+</svg>
